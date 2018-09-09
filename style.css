@@ -1,0 +1,117 @@
+/* colors:
+#012622 for dark green
+#003B36 for lighter dark green
+#FFD907 for school bus yellow
+#ECE5F0 for light lavender
+#59114D for rich purple
+
+https://coolors.co/012622-003b36-ffd907-ece5f0-59114d
+*/
+
+* {
+  padding: 5px;
+}
+body {
+  font-family: "Open sans" sans-serif;
+ /* color:#F6F1D1;*/
+  /*background-color: #FFBA08;*/
+  background-color: #FFD907;
+  color: #012622;
+}
+
+a {
+  color: #ECE5F0;
+}
+/*#header{
+  background-image: url("header.png");
+  padding:50px;
+}*/
+
+.panel > .panel-heading {
+    background-image: none;
+    background-color: #59114D;
+    color: white;
+    cursor: pointer;
+}
+
+.panel {
+  background-color: #ECE5F0;
+}
+
+img{
+  width:100%;
+}
+
+#welcomeImage{
+  border-radius: 5%;
+  max-height: 400px;
+  max-width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#warmupOneImage {
+  max-width:100px;
+}
+
+/*.panel-heading {
+    cursor: pointer;
+}*/
+/*p{
+  font-size:16px;
+  word-wrap: break-word;
+  color:#F6F1D1;
+}
+a{
+  font-size: 16;
+  color:#F6F1D1;
+}
+
+#title{
+  color: #F6F1D1;
+}*/
+
+#navigation {
+  /*background-color: #131313;*/
+  background-color: #003B36;
+  padding:20px;
+}
+
+.navbuttonClaire{
+  /*background-color: #131313;*/
+  background-color: #59114D;
+  
+}
+
+/*#aboutMe {
+  vertical-align: middle;
+}*/
+  
+
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+/*.myCard{
+  background-image: url("header.png");
+}*/
+
+/*#cardBtn{
+  background-color:#8B728E;
+  border:none;
+}
+#nameHeader {
+  color:#C20114;
+  padding:5px;
+  font-size:50px;
+}*/
+.navbuttonClaire:hover{
+  background-color:#FFD907;
+}
+
+#welcomeText {
+  color: #ECE5F0;
+}
